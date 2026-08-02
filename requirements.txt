@@ -1,0 +1,15 @@
+# HTTP + HTML parsing for the scrapers
+requests>=2.31
+beautifulsoup4>=4.12
+
+# Browser automation for sites that block plain requests (wasalt, bayut).
+# After installing, also run once: python -m playwright install chromium
+playwright>=1.40
+
+# Database read path returns DataFrames (db/database.py) and the UI uses them
+pandas>=2.0
+
+# Streamlit UI (ui/app.py). 1.36+ is required, not just preferred: the
+# listing cards use st.popover (1.31) and st.columns(vertical_alignment=...)
+# (1.36), which raise TypeError on older versions.
+streamlit>=1.36
