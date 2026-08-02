@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(foreach\\($f in \"durl.py\",\"d403.py\",\"dall.py\",\"dlim.py\"\\){ \"===== $f =====\"; Get-Content \"C:\\\\Users\\\\ASUS\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\$f\" -Raw })",
+      "PowerShell(python -c \"import streamlit; print\\('streamlit', streamlit.__version__\\)\")",
+      "WebFetch(domain:dealapp.sa)",
+      "PowerShell(python \"C:\\\\Users\\\\ASUS\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\c--Users-ASUS-Desktop-rag-scraping\\\\2dbd9b5a-0231-488c-9f9b-b826d78c870f\\\\scratchpad\\\\final_check.py\")",
+      "PowerShell(python \"C:\\\\Users\\\\ASUS\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\c--Users-ASUS-Desktop-rag-scraping\\\\2dbd9b5a-0231-488c-9f9b-b826d78c870f\\\\scratchpad\\\\test_paging.py\")",
+      "PowerShell(python \"C:\\\\Users\\\\ASUS\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\c--Users-ASUS-Desktop-rag-scraping\\\\2dbd9b5a-0231-488c-9f9b-b826d78c870f\\\\scratchpad\\\\test_map_scraper.py\")",
+      "PowerShell(python \"C:\\\\Users\\\\ASUS\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\c--Users-ASUS-Desktop-rag-scraping\\\\2dbd9b5a-0231-488c-9f9b-b826d78c870f\\\\scratchpad\\\\test_coalesce.py\")",
+      "PowerShell(python \"C:\\\\Users\\\\ASUS\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\c--Users-ASUS-Desktop-rag-scraping\\\\2dbd9b5a-0231-488c-9f9b-b826d78c870f\\\\scratchpad\\\\status.py\")",
+      "PowerShell(python \"C:\\\\Users\\\\ASUS\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\c--Users-ASUS-Desktop-rag-scraping\\\\2dbd9b5a-0231-488c-9f9b-b826d78c870f\\\\scratchpad\\\\probe_detail.py\")",
+      "PowerShell(python \"C:\\\\Users\\\\ASUS\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\c--Users-ASUS-Desktop-rag-scraping\\\\2dbd9b5a-0231-488c-9f9b-b826d78c870f\\\\scratchpad\\\\probe2.py\")",
+      "PowerShell(python \"C:\\\\Users\\\\ASUS\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\c--Users-ASUS-Desktop-rag-scraping\\\\2dbd9b5a-0231-488c-9f9b-b826d78c870f\\\\scratchpad\\\\probe3.py\")",
+      "PowerShell(python \"C:\\\\Users\\\\ASUS\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\c--Users-ASUS-Desktop-rag-scraping\\\\2dbd9b5a-0231-488c-9f9b-b826d78c870f\\\\scratchpad\\\\test_detail.py\")",
+      "PowerShell(python \"C:\\\\Users\\\\ASUS\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\c--Users-ASUS-Desktop-rag-scraping\\\\2dbd9b5a-0231-488c-9f9b-b826d78c870f\\\\scratchpad\\\\probe5.py\")",
+      "PowerShell(python \"C:\\\\Users\\\\ASUS\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\c--Users-ASUS-Desktop-rag-scraping\\\\2dbd9b5a-0231-488c-9f9b-b826d78c870f\\\\scratchpad\\\\test_area_filter.py\")",
+      "PowerShell(python \"C:\\\\Users\\\\ASUS\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\c--Users-ASUS-Desktop-rag-scraping\\\\2dbd9b5a-0231-488c-9f9b-b826d78c870f\\\\scratchpad\\\\status.py\" 2>&1)"
+    ]
+  }
+}
